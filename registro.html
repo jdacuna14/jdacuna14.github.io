@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+        </style>
+    </head>
+    <body>
+        <div style="max-width:1400px;">
+            <div class="w3-row" style="background-color: aquamarine; display: flex; align-items: center;">
+                <a class="w3-btn w3-button w3-text-white" style="background-color: #009688; margin-left: 2%;" href="index.html">Volver</a>
+                <p class="w3-xlarge" style="margin-left: 39%; font-weight: bold;">Registro</p>
+            </div>
+        </div>
+        
+        <div class="w3-col m6 w3-card-4" style="margin-left: 30%; margin-top: 1%; margin-bottom: 2%;">
+            <h3 style="margin-left: 1%;">Nombre: </h3>
+            <input type="text" style="margin-left: 1%; width: 230px;"><br>
+
+            <h3 style="margin-left: 1%;">Fecha Nacimiento: </h3>
+            <input type="text" style="margin-left: 1%; width: 102px;" placeholder="AAAA-MM-DD"> <br>
+
+            <h3 style="margin-left: 1%;">Sexo:</h3>
+            <input class="w3-radio" type="radio" name="sexo" value="Masculino" checked style="margin-left: 1%;">
+            <label>Masculino</label>
+            <input class="w3-radio" type="radio" name="sexo" value="Femenino" style="margin-left: 1%;">
+            <label>Femenino</label>
+            <input class="w3-radio" type="radio" name="sexo" value="Otro" style="margin-left: 1%;">
+            <label>Otro</label>
+
+            <h3 style="margin-left: 1%;">Estado Civil: </h3>
+            <input type="text" style="margin-left: 1%"> <br>
+
+            <h3 style="margin-left: 1%;">Dirección: </h3>
+            <input type="text" style="margin-left: 1%; width: 230px;"> <br>
+
+            <h3 style="margin-left: 1%;">Teléfono: </h3>
+            <input type="text" style="margin-left: 1%"> <br>
+
+            <h3 style="margin-left: 1%;">Email: </h3>
+            <input type="text" style="margin-left: 1%; width: 230px;"> <br>
+
+            <h3 style="margin-left: 1%;">Antecedentes Personales: </h3>
+                <h4 style="margin-left: 2%;">Alergias:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%;">Enfermedades Crónicas:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%;">Cirugías previas:</h4>
+                    <h5 style="margin-left: 3%;">Tipo:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Fecha:</h5> <input type="text" style="margin-left: 3%; width: 102px;" placeholder="AAAA-MM-DD">
+                    <h5 style="margin-left: 3%; margin-top: 5%;">Tipo:</h5> <input type="text" style="margin-left: 3%;">
+                    <h5 style="margin-left: 3%;">Fecha</h5> <input type="text" style="margin-left: 3%; width: 102px;" placeholder="AAAA-MM-DD">
+                <h4 style="margin-left: 2%;">Medicación:</h4>
+                    <h5 style="margin-left: 3%;">Nombre:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Dosis:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Frecuencia:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%; margin-top: 5%;">Nombre:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Dosis:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Frecuencia:</h5> <input type="text" style="margin-left: 3%">
+                <h4 style="margin-left: 2%;">Hábitos:</h4>
+                    <h5 style="margin-left: 3%;">Tabaco:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Alcohol:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Actividad Física:</h5> <input type="text" style="margin-left: 3%">
+            <h3 style="margin-left: 1%;">Antecedentes Familiares: </h3>
+                <h4 style="margin-left: 2%;">Enfermedades Hereditarias:</h4>
+                    <h5 style="margin-left: 3%;">Enfermedad:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Familiar:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%; margin-top: 5%;">Enfermedad:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Familiar:</h5> <input type="text" style="margin-left: 3%">
+            <h3 style="margin-left: 1%;">Consultas Médicas: </h3>
+                <h4 style="margin-left: 2%;">Fecha:</h4> <input type="text" style="margin-left: 2%; width: 102px;" placeholder="AAAA-MM-DD">
+                <h4 style="margin-left: 2%;">Motivo:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%;">Diagnóstico:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%;">Tratamiento:</h4>
+                    <h5 style="margin-left: 3%;">Nombre:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Dosis:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Frecuencia:</h5> <input type="text" style="margin-left: 3%">
+                <h4 style="margin-left: 2%;">Notas:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%; margin-top: 5%;">Fecha:</h4> <input type="text" style="margin-left: 2%; width: 102px;" placeholder="AAAA-MM-DD">
+                <h4 style="margin-left: 2%;">Motivo:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%;">Diagnóstico:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%;">Tratamiento:</h4>
+                    <h5 style="margin-left: 3%;">Nombre:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Dosis:</h5> <input type="text" style="margin-left: 3%">
+                    <h5 style="margin-left: 3%;">Frecuencia:</h5> <input type="text" style="margin-left: 3%">
+                <h4 style="margin-left: 2%;">Notas:</h4> <input type="text" style="margin-left: 2%">
+            <h3 style="margin-left: 1%;">Exámenes: </h3>
+                <h4 style="margin-left: 2%;">Fecha:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%;">Tipo:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%;">Resultados:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%;">Notas:</h4> <input type="text" style="margin-left: 2%">
+
+                <h4 style="margin-left: 2%; margin-top: 5%;">Fecha:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%;">Tipo:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%;">Resultados:</h4> <input type="text" style="margin-left: 2%">
+                <h4 style="margin-left: 2%;">Notas:</h4> <input type="text" style="margin-left: 2%; margin-bottom: 2%;">
+        </div>
+        
+        <footer class="w3-container w3-center w3-margin-top">
+            <h2><b>TecHealth</b></h2>
+            
+            <p>Estamos para ti cuando más lo necesitas</p>
+        </footer>
+    </body>
+</html>
